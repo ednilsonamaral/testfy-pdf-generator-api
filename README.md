@@ -53,4 +53,6 @@ Para testes em seu computador, tenha instalado o Postman, e, siga os passos abai
 
 4. Irá retornar uma mensagem similiar à `This response could not be previewed. Download the response to open it with an appropriate application.`, pois não estamos utilizando nenhum *template engine* para já mostrar o PDF gerado na tela. Então, clique em **Save Response** no canto direito da tela, e, em seguida, selecione **Save to a file** para salvar o arquivo PDF gerado no diretório que desejar. (exemplo de imagem abaixo)
 
-![]
+![Imagem de exemplo](https://github.com/ednilsonamaral/testfy-pdf-generator-api/blob/master/public/img/example.png)
+
+4.1 Ou então, você poderá visualizar o arquivo salvo em `./public/files/output.pdf`.
