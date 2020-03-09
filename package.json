@@ -1,0 +1,25 @@
+{
+  "name": "test-pdf-generator-api",
+  "version": "1.0.0",
+  "description": "API para geracao de PDF",
+  "author": "Ednilson Amaral <ednilsonamaral.ti@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "pdfkit": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  }
+}
